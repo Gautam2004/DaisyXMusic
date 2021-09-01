@@ -26,7 +26,7 @@ if os.path.exists("local.env"):
 que = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME","The Music X")
+BOT_NAME = getenv("BOT_NAME", "The Music X")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "GautamS_Mirror")
 BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/ab9ee4d89a465383082df.jpg")
 admins = {}
